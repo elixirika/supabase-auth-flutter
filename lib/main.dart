@@ -73,7 +73,8 @@ class AuthCheckerState extends State<AuthChecker> {
                     WidgetsBinding.instance.addPostFrameCallback((_) {
                       Navigator.pushReplacement(
                         context,
-                        MaterialPageRoute(builder: (context) => const Overview()),
+                        MaterialPageRoute(
+                            builder: (context) => const Overview()),
                       );
                     });
                   },
@@ -94,6 +95,27 @@ class AuthCheckerState extends State<AuthChecker> {
                 );
               },
             ),
+
+            // // Other Auth options, see complete HOW-TOS documentions :)
+            // SupaMagicAuth(
+            //   redirectUrl: kIsWeb ? null : 'io.mydomain.myapp://callback',
+            //   onSuccess: (Session response) {},
+            //   onError: (error) {},
+            // ),
+            // SupaPhoneAuth(
+            //   authAction: SupaAuthAction.signUp,
+            //   onSuccess: (AuthResponse response) {},
+            // ),
+            // SupaSocialsAuth(
+            //   socialProviders: [
+            //     OAuthProvider.apple,
+            //     OAuthProvider.google,
+            //   ],
+            //   colored: true,
+            //   redirectUrl: kIsWeb ? null : 'io.mydomain.myapp://callback',
+            //   onSuccess: (Session response) {},
+            //   onError: (error) {},
+            // )
           ],
         ),
       ),
