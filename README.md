@@ -10,6 +10,10 @@ This is a Flutter application that integrates user authentication using Supabase
 - **Easy to Understand**: This project is designed to be beginner-friendly, following the official documentation from [Supabase](https://supabase.com/docs/guides/auth/auth-helpers/flutter-auth-ui).
 - **Unstyled**: The application is intentionally left unstyled, allowing you to customize the UI to match your project's aesthetic.
 
+<img width="390" alt="Screenshot 2024-10-28 at 4 43 25 PM" src="https://github.com/user-attachments/assets/5b52b311-7d11-48fa-93fb-9ad72c8e63dd">
+<img width="390" alt="Screenshot 2024-10-28 at 4 43 34 PM" src="https://github.com/user-attachments/assets/723ea162-635c-4638-9c27-3ebcde1e526c">
+
+
 ## Getting Started
 
 ### Prerequisites
@@ -22,28 +26,20 @@ This is a Flutter application that integrates user authentication using Supabase
   
 ### Installation
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/elixirika/taskboard-supabase-flutter.git
-   ```
+1. Clone the repository and navigate to the project directory
+2. Install the dependencies:
 
-2. Navigate to the project directory:
-   ```bash
-   cd taskboard-supabase-flutter
-   ```
-
-3. Install the dependencies:
    ```bash
    flutter pub get
    ```
 
-4. Configure your Supabase credentials by creating a `.env` file in the root of the project with the following contents:
+3. Configure your Supabase credentials by creating a `.env` file in the root of the project with the following contents:
    ```plaintext
    SUPABASE_URL=your_supabase_url
    SUPABASE_ANON_KEY=your_supabase_anon_key
    ```
 
-5. Run the application:
+4. Run the application:
    ```bash
    flutter run
    ```
