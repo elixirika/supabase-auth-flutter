@@ -1,5 +1,5 @@
 
-# Flutter Authentication with Supabase
+# Supabase Auth with Flutter
 
 This is a Flutter application that integrates user authentication using Supabase. It leverages the Flutter Auth UI package, which contains pre-built widgets for authenticating users.
 
